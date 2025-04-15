@@ -5,7 +5,7 @@ import { base } from 'wagmi/chains'
 import { publicProvider } from 'wagmi/providers/public'
 import { EthereumClient } from '@web3modal/ethereum'
 
-export const projectId = '050d3abd2409cfc2ab142c17fbd0a77c'
+export const projectId = '465e1e1d0e40f88070f30ea5af2cd7fd'
 
 const { chains, publicClient } = configureChains([base], [publicProvider()])
 
